@@ -49,6 +49,22 @@ section#contact {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+/* Nav menu items */
+nav,
+nav ul {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+
+
 /* Menu bars */
 .menu_bars {
     position: fixed;
