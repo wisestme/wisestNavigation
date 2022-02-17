@@ -9,6 +9,18 @@ const nav5 = document.getElementById('nav_5');
 function toggleNav() {
     // Toggle: Menu Bars Open/Closed
     menuBars.classList.toggle('change');
+
+    // show/hide menu
+    overlay.classList.toggle('overlay_active');
+    if(overlay.classList.contains('overlay_active')) {
+        // animate-in overlay
+        overlay.classList.add('overlay_slide_right');
+        overlay.classList.remove('overlay_slide_left');
+    } else {
+        // animate-out overlay
+        overlay.classList.add('overlay_slide_left');
+        overlay.classList.remove('overlay_slide_right');
+    }
 }
 
 // Event listeners

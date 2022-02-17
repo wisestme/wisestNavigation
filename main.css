@@ -47,8 +47,18 @@ section#contact {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
+    transform: translateX(-100vw);
 }
 
+.overlay_slide_right {
+    transform: translateX(0);
+    transition: all 0.4s ease-in-out;
+}
+
+.overlay_slide_left {
+    transform: translateX(-100vw);
+    transition: all 0.8s ease-in-out;
+}
 /* Nav menu items */
 nav,
 nav ul {
