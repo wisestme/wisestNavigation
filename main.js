@@ -40,7 +40,7 @@ function toggleNav() {
         overlay.classList.add('overlay_slide_right');
         overlay.classList.remove('overlay_slide_left');
         
-        // animate-in nav items
+        // animate-out nav items
         nav1.classList.add('slide_out_1');
         nav1.classList.remove('slide_in_1');
 
