@@ -36,9 +36,9 @@ function toggleNav() {
         overlay.classList.add('overlay_slide_left');
         overlay.classList.remove('overlay_slide_right');
 
-         // animate-in overlay
-        overlay.classList.add('overlay_slide_right');
-        overlay.classList.remove('overlay_slide_left');
+        //  // animate-in overlay
+        // overlay.classList.add('overlay_slide_right');
+        // overlay.classList.remove('overlay_slide_left');
         
         // animate-out nav items
         nav1.classList.add('slide_out_1');
